@@ -1,0 +1,82 @@
+{
+  "objectId": 1000000003,
+  "properties": {
+    "hs_object_id": {
+      "value": "1000000003"
+    },
+    "dealname": {
+      "value": "Acme Corp - Stale Close Date"
+    },
+    "amount": {
+      "value": "48000"
+    },
+    "deal_currency_code": {
+      "value": "USD"
+    },
+    "closedate": {
+      "value": "1794330000000"
+    },
+    "dealstage": {
+      "value": "presentationscheduled"
+    },
+    "pipeline": {
+      "value": "default"
+    },
+    "hubspot_owner_id": {
+      "value": "12345"
+    }
+  },
+  "offline": {
+    "company": {
+      "id": "701",
+      "name": "Acme Corp"
+    },
+    "owner": {
+      "id": "12345",
+      "firstName": "Alex",
+      "lastName": "Rivera"
+    },
+    "contacts": [
+      {
+        "id": "501",
+        "firstname": "Jane",
+        "lastname": "Doe",
+        "jobtitle": "VP of Operations",
+        "email": "jane.doe@acme.example",
+        "hs_buying_role": "CHAMPION"
+      },
+      {
+        "id": "502",
+        "firstname": "John",
+        "lastname": "Smith",
+        "jobtitle": "Chief Financial Officer",
+        "email": "john.smith@acme.example",
+        "hs_buying_role": "BUDGET_HOLDER;DECISION_MAKER"
+      },
+      {
+        "id": "503",
+        "firstname": "Priya",
+        "lastname": "Patel",
+        "jobtitle": "Head of Information Security",
+        "email": "priya.patel@acme.example",
+        "hs_buying_role": ""
+      },
+      {
+        "id": "504",
+        "firstname": "Maria",
+        "lastname": "Garcia",
+        "jobtitle": "Procurement Manager",
+        "email": "maria.garcia@acme.example",
+        "hs_buying_role": "LEGAL_AND_COMPLIANCE"
+      },
+      {
+        "id": "505",
+        "firstname": "Sam",
+        "lastname": "Lee",
+        "jobtitle": "Lead Solutions Architect",
+        "email": "sam.lee@acme.example",
+        "hs_buying_role": "INFLUENCER"
+      }
+    ]
+  }
+}
