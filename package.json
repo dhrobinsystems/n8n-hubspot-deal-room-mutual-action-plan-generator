@@ -1,0 +1,21 @@
+{
+  "name": "n8n-hubspot-deal-room-mutual-action-plan-generator",
+  "version": "1.0.0",
+  "description": "n8n workflow + Node.js mirror that generates a Mutual Action Plan when a HubSpot deal enters the Proposal / Evaluation stage, back-schedules milestones from the close date, syncs the MAP URL and milestone properties to the deal, and sends weekly Slack nudges for slipped milestones. DRY_RUN and SANDBOX_MODE by default.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "simulate": "node src/index.js --simulate",
+    "preview": "node src/index.js --preview",
+    "monitor": "node src/index.js --monitor",
+    "test": "node --test tests/map.test.js",
+    "build:workflow": "node scripts/build-workflow.js"
+  },
+  "engines": { "node": ">=20.0.0" },
+  "dependencies": {},
+  "keywords": ["n8n", "hubspot", "mutual-action-plan", "deal-room", "revops", "slack", "google-docs", "notion"],
+  "author": { "name": "DH Robin | dhRobin Systems", "url": "https://dhrobinsystems.com" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/dhrobinsystems/n8n-hubspot-deal-room-mutual-action-plan-generator.git" }
+}

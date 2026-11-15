@@ -1,0 +1,21 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.service-account.json
+
+# Dependencies
+node_modules/
+
+# Logs and coverage
+logs/
+*.log
+npm-debug.log*
+coverage/
+.nyc_output/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
