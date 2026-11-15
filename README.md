@@ -26,6 +26,8 @@ Out of the box it is inert: `DRY_RUN=true`, `SANDBOX_MODE=true`, `DOC_PROVIDER=s
 
 ## Architecture overview
 
+![Architecture Diagram](assets/architecture-diagram.png)
+
 ```
  HubSpot workflow (deal enters "Proposal / Evaluation")
    └─ Send a webhook  POST  x-webhook-secret: <N8N_WEBHOOK_SECRET>
